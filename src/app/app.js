@@ -1,10 +1,10 @@
 import { Provider } from "react-redux";
 import store from './store'
 
-import { DarkModeScript } from '../features/DarkModeScript';
+import { DarkModeScript } from '../features/window-scripts/DarkModeScript';
 import { ChatBody } from '../components/ChatBody';
-import { CloudFlareScript } from '../features/CloudFlareScript';
-import { NextRouteAnnouncer } from '../features/NextRouteAnnouncer';
+import { CloudFlareScript } from '../features/window-scripts/CloudFlareScript';
+import { NextRouteAnnouncer } from '../features/window-scripts/NextRouteAnnouncer';
 
 const App = () => {
   return(
